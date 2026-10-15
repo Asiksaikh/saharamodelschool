@@ -1,0 +1,155 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sahara Model School (H.S)</title>
+<link rel="stylesheet" href="stylesahara.css">
+<link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"><!-- add this social side-->
+</head>
+
+<body>
+<header>
+    <div class="menu">
+  <button class="menu-btn"
+   onclick="toggleMenu()">☰</button>
+
+  <div class="menu-items" id="menuItems">
+<a href="home.html">Home</a>
+<a href="about.html">About</a>
+<a href="academics.html">Academics</a>
+<a href="admission-form/form.html">Admission</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+<a href="faculty.html">Faculty</a>
+<a href="notice.html">Notice</a>
+    
+  </div>
+</div>
+
+ <div class="logo-box">
+        <img id="schoolLogo" src="saharaman/logo.jpeg">
+    </div>
+    <script>
+        const logos = [
+            "saharaman/logo.jpeg",
+            "saharaman/logo1.jpeg",
+            "saharaman/logo2.jpeg",
+            "saharaman/logo3.jpeg",
+            "saharaman/logo4.jpeg",
+            "saharaman/logo5.jpeg",
+        ];
+
+        let currentLogo = 0;
+        const logo = document.getElementById("schoolLogo");
+
+        setInterval(function () {
+
+            // Fade out
+            logo.classList.add("fade");
+
+            setTimeout(function () {
+
+                // Next logo
+                currentLogo++;
+
+                if (currentLogo >= logos.length) {
+                    currentLogo = 0;
+                }
+
+                logo.src = logos[currentLogo];
+
+                // Fade in
+                logo.classList.remove("fade");
+
+            }, 800);
+
+        }, 3000);
+    </script>
+
+<h2>SAHARA MODEL SCHOOL (H.S)</h2>
+<p>Education Empowers</p>
+</div>
+</div>
+<nav>
+
+<a href="home.html">Home</a>
+<a href="about.html">About</a>
+<a href="academics.html">Academics</a>
+<a href="admission-form/form.html">Admission</a>
+<a href="gallery.html">Gallery</a>
+<a href="contact.html">Contact</a>
+<a href="faculty.html">Faculty</a>
+<a href="notice.html">Notice</a>
+
+<script>
+function toggleMenu() {
+  document.getElementById("menuItems").classList.toggle("show");
+}
+</script>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<div>
+    
+<h1>Welcome to Sahara Model School </h1>
+
+<p>
+Building Bright Futures Through Quality Education
+</p><br><br>
+
+<a href="admission.html" class="btn">
+<h>Admission Open</h>
+</a><br>
+
+</div>
+
+</div>
+
+</section>
+<div class="director">
+    <a href="director.html" class="btn"><h>MEET OUR DIRECTOR</h></a><br><br>
+    <p>I believe that education is not only about academic success; it is about developing
+         knowledgeable, skilled, disciplined, confident, and responsible individuals who can 
+         contribute positively to society.</p>
+    <div class="profile-card">
+
+            <!-- তোমার ছবি এখানে -->
+            <img src="aboutimg/directorpic2.jpeg" alt="Profile Photo">
+
+            <div class="profile-info">
+                <h2 style="color:#0F5233;">Md. Majibar Modal</h2>
+                <p>Founder & Director</p>
+            </div>
+
+        </div>
+</div>
+
+<section class="about">
+
+<h2>About Our School</h2>
+<p>
+Sahara Model School is committed to providing quality education with discipline, knowledge and moral values.
+Our goal is to prepare students for a bright future through modern education and character building.
+</p><br><br>
+<a href="advisory.html" class="btn"><h>Advisory Committee</h></a><br><br>
+</section>
+<footer>
+
+📍 Mohabbatpur, Kaliachak, Malda, West Bengal
+
+<br><br>
+
+📞 +91 9064291164
+📞 +91 7076221186
+
+
+</footer>
+
+</body>
+</html>

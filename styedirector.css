@@ -1,0 +1,53 @@
+ body {
+            background-image: url("aboutimg/background.jpeg");
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: white;
+            
+        background-size:cover;}
+
+        .divsty{
+            text-align:center;
+            width:auto;
+            background-color:white;
+            
+        }
+        .container{
+            display:flex;
+            gap: 10px;
+            width: auto; 
+            background-color:rgb(61, 36, 45);
+            text-align: center;
+        
+        .box{
+            
+            width: auto;
+            background-color: rgb(34, 104, 164);
+            border: 5px solid black; 
+            position: relative;
+            top:00px;
+        .top img{
+    width:400px;
+    height: 500px;
+    border:5px solid gold;
+    object-fit:cover;
+}
+            
+        
+        }
+        
+
+         .box1{
+        text-align: center;
+            width: auto;
+            background-color:white;
+            border: 1px solid black; 
+            position: relative;
+            top: 70px;
+
+            
+        }
+        
+    }
+
+        

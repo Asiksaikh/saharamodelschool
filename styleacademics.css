@@ -1,0 +1,236 @@
+
+
+/* Header */
+.academic-header{
+    background:rgb(27, 44, 30);
+    color:white;
+    text-align:center;
+    padding:55px 20px;
+}
+
+.academic-header h1{
+    font-size:42px;
+    margin-bottom:12px;
+}
+
+.academic-header p{
+    font-size:18px;
+}
+
+/* Main Section */
+.academic-container{
+    max-width:1200px;
+    margin:50px auto;
+    padding:0 20px;
+}
+
+.intro{
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.intro h2{
+    color:#0F5233;
+    font-size:32px;
+    margin-bottom:15px;
+}
+
+.intro p{
+    line-height:1.7;
+    color:#555;
+}
+
+/* Cards */
+.academic-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    background-color:darkslategrey
+}
+
+.academic-card{
+    background:rgb(230, 201, 201);
+    padding:30px 22px;
+    border-radius:12px;
+    box-shadow:0 5px 18px rgba(0,0,0,0.08);
+    text-align:center;
+    transition:0.3s;
+    border-top:4px solid #0F5233;
+}
+
+.academic-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+.icon{
+    font-size:42px;
+    margin-bottom:15px;
+}
+
+.academic-card h3{
+    color:#0F5233;
+    margin-bottom:12px;
+    font-size:21px;
+    bottom: ;
+}
+
+.academic-card p{
+    color:#666;
+    line-height:1.6;
+    font-size:15px;
+}
+
+/* Highlight Section */
+.highlight{
+    margin-top:55px;
+    background:#0F5233;
+    color:white;
+    padding:45px 25px;
+    border-radius:15px;
+    text-align:center;
+}
+
+.highlight h2{
+    font-size:30px;
+    margin-bottom:15px;
+}
+
+.highlight p{
+    max-width:850px;
+    margin:auto;
+    line-height:1.7;
+}
+
+/* Footer */
+footer{
+    margin-top:50px;
+    background:#083b25;
+    color:white;
+    text-align:center;
+    padding:22px;
+}
+
+@media(max-width:600px){
+    .academic-header h1{
+        font-size:32px;
+    }
+
+    .intro h2{
+        font-size:26px;
+    }
+}
+/* our fasility this css it is the ver*/
+.facilities h2{
+    text-align:center;
+    color:rgb(32, 7, 75);
+    margin-bottom:20px;
+
+}
+.facilities-section {
+    padding: 70px 5%;
+    background: rgb(44, 17, 17);
+    font-family: Arial, sans-serif;
+}
+
+.facilities-header {
+    text-align: center;
+    max-width: 750px;
+    margin: 0 auto 45px;
+}
+
+.facilities-header span {
+    color: #0F5233;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+
+.facilities-header h2 {
+    font-size: 34px;
+    margin: 12px 0;
+    color: #123b29;
+}
+
+.facilities-header p {
+    color: #666;
+    line-height: 1.7;
+}
+
+.facilities-grid {
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 22px;
+}
+
+.facility-card {
+    background: rgba(51, 195, 224, 0.866);
+    padding: 28px 20px;
+    text-align: center;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.07);
+    transition: 0.3s;
+    border-bottom: 3px solid transparent;
+}
+
+.facility-card:hover {
+    transform: translateY(-7px);
+    border-bottom: 3px solid #0F5233;
+}
+
+.facility-icon {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.facility-card h3 {
+    color: #0F5233;
+    font-size: 19px;
+    margin: 10px 0;
+}
+
+.facility-card p {
+    color: #666;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+
+/* Tablet */
+@media (max-width: 900px) {
+    .facilities-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 600px) {
+    .facilities-section {
+        padding: 50px 18px;
+    }
+
+    .facilities-header h2 {
+        font-size: 27px;
+    }
+
+    .facilities-grid {
+        grid-template-columns: 1fr;
+        gap: 16px;
+    }
+
+    .facility-card {
+        padding: 25px 18px;
+    }
+}
+.asik{
+    background-color: #0c1d16;
+    text-align: center;color: white;
+    width: auto;
+    border-radius: 4%;
+    border-color: rgb(42, 16, 16);
+
+}
